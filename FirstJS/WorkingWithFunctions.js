@@ -19,7 +19,7 @@ console.log("Speed Limit in Km/h: ", speedLimit);
 
 //implicit function. return not required as it is implicit
 let mphToKmphImplicit = mph => 1.61 * mph;
-speedLimit = mphToKmph(65);
+speedLimit = mphToKmphImplicit(65);
 console.log("Speed Limit in Km/h: ", speedLimit);
 
 //implicit function. retwo imput
